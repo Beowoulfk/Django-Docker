@@ -193,7 +193,7 @@ Luego en la consola:
 
 con este comando creamos el Docker con el nombre Python-django-app y como parámetro de entrada  .  que indica que es en la misma carpeta donde estará el dockerfile
 
-`docker build -t python-django-app .`
+`docker build -t python-django-app -f ./Dockerfile.txt .`
 
 luego de ejecutar este comando saldrá esto:
 
